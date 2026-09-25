@@ -4,8 +4,16 @@
   "description": "Playwright project on saucedemo website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx playwright test --project=chromium",
+    "guiTest": "npx playwright test --project=chromium --ui"
   },
   "author": "Darshan M Hegde",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.63.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.2"
+  }
 }
