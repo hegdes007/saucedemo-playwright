@@ -4,7 +4,7 @@
   "description": "Playwright project on saucedemo website",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test --project=chromium",
+    "test": "npx playwright test",
     "guiTest": "npx playwright test --project=chromium --ui"
   },
   "author": "Darshan M Hegde",
