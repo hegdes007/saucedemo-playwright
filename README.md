@@ -14,13 +14,11 @@ The project uses the Page Object Model (POM), data-driven testing, and Playwrigh
 - Automated report deployment using GitHub Pages
 
 # Tech Stack
-~~~
 - Playwright
 - TypeScript
 - Node.js
 - Allure Reports
 - GitHub Actions
-~~~
 
 # Project Structure
 ~~~text
