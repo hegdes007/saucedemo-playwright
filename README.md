@@ -2,9 +2,9 @@
 
 End-to-end UI automation of the SauceDemo application using Playwright and TypeScript.
 
-The project uses Page Object Model (POM), data-driven testing and Playwright's storageState for reusing authenticated sessions.
+The project uses the Page Object Model (POM), data-driven testing, and Playwright's storageState to reuse authenticated sessions.
 
-Features
+# Features
 Page Object Model (POM)
 Data-driven testing
 Reusable authentication using storageState
@@ -12,14 +12,16 @@ Cross-browser testing (Chromium, Firefox and WebKit)
 Allure reporting
 GitHub Actions CI/CD
 Automated report deployment using GitHub Pages
-Tech Stack
+
+# Tech Stack
 Playwright
 TypeScript
 Node.js
 Allure Reports
 GitHub Actions
-Project Structure
-text
+
+# Project Structure
+~~~
 saucedemo-playwright/
 │
 ├── .github/
@@ -43,12 +45,13 @@ saucedemo-playwright/
 ├── package.json                 # Project dependencies and scripts
 ├── package-lock.json            # Dependency lock file
 └── README.md
+~~~
 
 Getting Started
 
 Prerequisites: Node.js 22+ and npm.
 
-Clone the repository:
+# Clone the repository:
 
 bash
 git clone https://github.com/hegdes007/saucedemo-playwright.git
@@ -56,26 +59,26 @@ git clone https://github.com/hegdes007/saucedemo-playwright.git
 cd saucedemo-playwright
 
 
-Install dependencies:
+# Install dependencies:
 
 bash
 npm ci
 
 
-Install Playwright browsers:
+# Install Playwright browsers:
 
 bash
 npx playwright install
 
-Running Tests
+## Running Tests
 
-Run tests across all configured browsers:
+# Run tests across all configured browsers:
 
 bash
 npm test
 
 
-Run tests on a specific browser:
+# Run tests on a specific browser:
 
 bash
 npx playwright test --project=chromium
@@ -83,29 +86,29 @@ npx playwright test --project=firefox
 npx playwright test --project=webkit
 
 
-Launch Playwright UI mode:
+# Launch Playwright UI mode:
 
 bash
 npm run guiTest
 
-Allure Report
+## Allure Report
 
-Generate the report:
+# Generate the report:
 
 bash
 npx allure generate
 
 
-Open the report:
+# Open the report:
 
 bash
 npx allure open
 
-Test Report
+# Test Report
 
 HTML Report - https://hegdes007.github.io/saucedemo-playwright/
 
-Repository
+# Repository
 
 GitHub – SauceDemo Playwright - https://github.com/hegdes007/saucedemo-playwright/
 
