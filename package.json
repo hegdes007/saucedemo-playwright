@@ -10,12 +10,12 @@
   "author": "Darshan M Hegde",
   "license": "ISC",
   "dependencies": {
-    "playwright": "^1.63.0"
+    "playwright": "1.63.0"
   },
   "devDependencies": {
-    "@playwright/test": "^1.63.0",
+    "@playwright/test": "1.63.0",
     "@types/node": "^26.6.2",
-    "allure": "^3.33.0",
-    "allure-playwright": "^3.14.0"
+    "allure": "3.33.0",
+    "allure-playwright": "3.14.0"
   }
 }
