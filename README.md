@@ -104,8 +104,11 @@ npx allure open
 ~~~
 
 # Test Report
+The framework generates an interactive Allure HTML report with detailed test execution results.
 
-HTML Report - https://hegdes007.github.io/saucedemo-playwright/
+The report also maintains up to 10 previous execution histories, allowing comparison of test results across multiple runs.
+
+View sauceDemo HTML Report - https://hegdes007.github.io/saucedemo-playwright/
 
 # Repository
 
