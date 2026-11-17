@@ -5,6 +5,7 @@ End-to-end UI automation of the SauceDemo application using Playwright and TypeS
 The project uses the Page Object Model (POM), data-driven testing, and Playwright's storageState to reuse authenticated sessions.
 
 # Features
+~~~
 -Page Object Model (POM)
 -Data-driven testing
 -Reusable authentication using storageState
@@ -12,13 +13,16 @@ The project uses the Page Object Model (POM), data-driven testing, and Playwrigh
 -Allure reporting
 -GitHub Actions CI/CD
 -Automated report deployment using GitHub Pages
+~~~
 
 # Tech Stack
+~~~
 -Playwright
 -TypeScript
 -Node.js
 -Allure Reports
 -GitHub Actions
+~~~
 
 # Project Structure
 ~~~text
