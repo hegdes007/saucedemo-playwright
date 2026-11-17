@@ -5,6 +5,7 @@ End-to-end UI automation of the SauceDemo application using Playwright and TypeS
 The project uses the Page Object Model (POM), data-driven testing, and Playwright's storageState to reuse authenticated sessions.
 
 # Features
+~~~
 Page Object Model (POM)
 Data-driven testing
 Reusable authentication using storageState
@@ -12,16 +13,19 @@ Cross-browser testing (Chromium, Firefox and WebKit)
 Allure reporting
 GitHub Actions CI/CD
 Automated report deployment using GitHub Pages
+~~~
 
 # Tech Stack
+~~~
 Playwright
 TypeScript
 Node.js
 Allure Reports
 GitHub Actions
+~~~
 
 # Project Structure
-~~~
+~~~text
 saucedemo-playwright/
 │
 ├── .github/
@@ -52,57 +56,56 @@ Getting Started
 Prerequisites: Node.js 22+ and npm.
 
 # Clone the repository:
-
-bash
+~~~bash
 git clone https://github.com/hegdes007/saucedemo-playwright.git
 
 cd saucedemo-playwright
-
+~~~
 
 # Install dependencies:
-
-bash
+~~~bash
 npm ci
-
+~~~
 
 # Install Playwright browsers:
-
-bash
+~~~bash
 npx playwright install
+~~~
 
 ## Running Tests
+Run tests across all configured browsers:
 
-# Run tests across all configured browsers:
-
-bash
+~~~bash
 npm test
+~~~
 
+Run tests on a specific browser:
 
-# Run tests on a specific browser:
-
-bash
+~~~bash
 npx playwright test --project=chromium
 npx playwright test --project=firefox
 npx playwright test --project=webkit
+~~~
 
+Launch Playwright UI mode:
 
-# Launch Playwright UI mode:
-
-bash
+~~~bash
 npm run guiTest
+~~~
 
 ## Allure Report
 
-# Generate the report:
+Generate the report:
 
-bash
+~~~bash
 npx allure generate
+~~~
 
+Open the report:
 
-# Open the report:
-
-bash
+~~~bash
 npx allure open
+~~~
 
 # Test Report
 
