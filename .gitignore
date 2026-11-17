@@ -141,3 +141,6 @@ dist
 /blob-report/
 /playwright/.cache/
 /tests/.auth/
+allure-results/
+allure-report/
+allure-history/
